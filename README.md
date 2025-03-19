@@ -29,7 +29,7 @@ console.log(result.response.text());
 ## Er uppgift
 
 
-1. Skapa en API-route ```/api/generate`` som  kommunicerar med Gemini API:et. Använd HTTP-metoden POST och skicka med en prompt från användaren
+1. Skapa en API-route ```/api/generate``` som  kommunicerar med Gemini API:et. Använd HTTP-metoden POST och skicka med en prompt från användaren
 2. Skapa en komponent ```<ChatInterface/>``` som tar in användarens prompt från en input-ruta och sedan fetchar från API:et, d.v.s```/api/generate```  och slutligen visar svaret.
 3. Skapa 2-3 sidor i Next.js där Gemini API:et används på ett kreativt sätt för att lösa olika användningsfall. 
 4. Modifiera ```<ChatInterface/>``` efter behov
